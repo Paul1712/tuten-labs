@@ -1,0 +1,44 @@
+{
+	"variables": [],
+	"info": {
+		"name": "TutenLabs Backend",
+		"_postman_id": "7077011e-7b77-28ac-4a32-bd40a6fb3114",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/api/time",
+			"request": {
+				"url": "http://localhost:4000/api/time",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "dato1",
+							"value": "18:31:45",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "dato2",
+							"value": "-3",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "Metodo para calcular Timezone"
+			},
+			"response": []
+		}
+	]
+}
