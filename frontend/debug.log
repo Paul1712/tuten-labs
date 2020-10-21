@@ -1,0 +1,2 @@
+[1020/112950.387:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1020/223116.745:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
